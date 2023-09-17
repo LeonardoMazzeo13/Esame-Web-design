@@ -798,6 +798,19 @@ nav {
    margin-left: 100px;
 }
 
+.grigio_dx{
+  float: right;
+  width: 80%;
+    background: #7F7B82;
+     border-radius: 80px;
+}
+
+.testo_grigio_dx{
+  width:55%;
+  padding:2px 35px;
+  float:right;
+}
+
 .rientro_dx{
   text-align: justify;
   margin-right: 100px;
@@ -827,4 +840,10 @@ nav {
   .rientro{
      margin-left: 50px;
   }
+
+  .rientro_dx{
+    margin-left: 40px;
+  }
+
+
 }
