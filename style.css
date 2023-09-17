@@ -798,6 +798,11 @@ nav {
    margin-left: 100px;
 }
 
+.rientro_dx{
+  text-align: justify;
+  margin-left: 100px;
+}
+
 @media screen and (max-width: 572px){
 
   .destro{
@@ -815,7 +820,7 @@ nav {
   }
 
   .testo_grigio{
-    width: 92%;
+    width: 80%;
     padding: 2px 35px;
   }
 
