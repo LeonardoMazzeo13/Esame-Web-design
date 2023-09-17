@@ -816,6 +816,21 @@ nav {
   margin-right: 100px;
 }
 
+
+.squat_sopra{
+  width:300px;
+  position: relative;
+  top:-50px;
+  right: 90px;
+}
+
+.squat_sotto{
+  width:300px;
+  position: relative;
+  top: 488px;
+  right: -267px;
+}
+
 @media screen and (max-width: 572px){
 
   .destro{
@@ -845,5 +860,24 @@ nav {
     margin-left: 40px;
   }
 
+.grigio_dx{
+  width: 100%;
+}
 
+
+  .testo_grigio_dx{
+    width: 100%;
+    float: unset;
+    padding: 8px 20px;
+  }
+
+  .squat_sopra{
+    right: -126px;
+  }
+
+  .squat_sotto{
+    top: -14px;
+    right: -157px;
+  }
+  
 }
