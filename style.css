@@ -890,20 +890,29 @@ nav {
   right: -267px;
 }
 
-.surplustesto{
+.dopingtesto{
 margin-top: 50px; 
 text-align: justify; 
 line-height: 1.5; 
 margin-left: 100px; 
 margin-right: 100px;
 }
+.dopingtesto2{
+  margin-top: 50px; 
+  text-align: justify; 
+  line-height: 1.5; 
+  margin-left: 100px; 
+  margin-right: 100px;
+  }
+
 .surplusimg {
   text-align: center; 
   position: relative; 
   width: 1018px; 
   padding-left: 120px; 
-  margin-top: -100px;
+  margin-top: -240px;
 }
+
 .dietatesto {
 margin-left: 100px; 
 margin-right: 100px;
@@ -934,6 +943,71 @@ margin-right: 100px;
         margin-left: 100px; 
         margin-right: 100px;
         }
+        .dopingimg1{
+          text-align: center; 
+          position: relative; 
+          width: 900px; 
+          padding-left: 205px; 
+          margin-top: -447px;
+          }
+          .dopingimg2 {
+            text-align: center;
+            position: relative;
+            width: 972px;
+            padding-left: 148px;
+            margin-top: -448px;
+        }
+          
+          .imgqua{
+          text-align: center; 
+          position: relative; 
+          width: 500px; 
+          padding-left: 80px; 
+          margin-top: -100px;
+           }
+           .imgqua2{
+              text-align: center;
+              position: relative;
+              width: 500px;
+              margin-left: 677px;
+              margin-top: -250px;
+             }  
+             .imgqua3{
+              text-align: center; 
+              position: relative; 
+              width: 500px; 
+              padding-left: 80px; 
+              margin-top: 70px;
+               }  
+               .imgqua4{
+                text-align: center; 
+                position: relative; 
+                width: 500px; 
+                padding-left: 80px;
+               margin-top: -100px;
+                }
+                .finale{
+                  float: left; 
+                  padding-right: 386px; 
+                  text-align: justify;
+                   }
+                   .dopingfinale{
+                   width:700px;
+                   position: relative;
+                   top:50px;
+                   right: 150px; 
+                   margin-left: 700px;
+                  }
+                  .surplustesto2{
+                    width: 90%;
+                    margin-top: 42px;
+                    text-align: justify;
+                    line-height: 1.5;
+                    margin-left: 56px;
+                    margin-right: 35px;
+                  }
+
+                  
 
 
 @media screen and (max-width: 572px){
@@ -966,9 +1040,25 @@ margin-right: 100px;
     margin-top: 20px; 
     text-align: justify; 
     line-height: 1.5; 
-    margin-left: 40px; 
+    margin-left: 60px; 
     margin-right: 40px;
     }
+    .surplustesto2{
+      width: 70%;
+      margin-top: 20px; 
+      text-align: justify; 
+      line-height: 1.5; 
+      margin-left: 60px; 
+      margin-right: 40px;
+      }
+    .dopingtesto{
+      width: 70%;
+      margin-top: 20px; 
+      text-align: justify; 
+      line-height: 1.5; 
+      margin-left: 40px; 
+      margin-right: 40px;
+      }
     .surplusimg {
     text-align: center; 
     position: relative; 
@@ -1010,7 +1100,11 @@ margin-right: 100px;
     padding-left: 50px; 
     margin-top: -40px;
     }
-    
+    .dopingtesto2{
+        margin-top: 50px;
+        margin-left: -190px;
+        margin-right: -196px;
+      } 
   
 
 
@@ -1028,6 +1122,20 @@ margin-right: 100px;
     float: right;
     margin-top: -700;
     margin-bottom: 80px
+}
+.dopingimg1{
+text-align: center; 
+position: relative; 
+width: 400px; 
+padding-left: 50px; 
+margin-top: 30px;
+}
+.dopingimg2{
+  text-align: center;
+  position: relative;
+  width: 380px;
+  padding-left: 50px;
+  margin-top: -10px;
 }
 .allenamento1 {
  
@@ -1081,5 +1189,42 @@ margin-right: 5px;
     top:50px;
     right: 514px; 
     margin-left: 500px;
-    }
+  }
+  .imgqua{
+    text-align: center; 
+    position: relative; 
+    width: 200px; 
+    padding-left: 30px; 
+    margin-top: -100px;
+     }
+     .imgqua2{
+      position: relative;
+      width: 200px;
+      margin-left: 266px;
+      margin-top: -108px;
+       }  
+       .imgqua3{
+        position: relative;
+        width: 200px;
+        padding-left: 30px;
+        margin-top: 25px;
+         }  
+         .imgqua4{
+          position: relative;
+          width: 200px;
+          padding-left: 268px;
+          margin-top: -102px;
+          }
+          .finale{
+            float: left;
+            padding-right: 12px;
+            text-align: justify;
+           }
+           .dopingfinale{
+            width: 439px;
+            position: relative;
+            top: -7px;
+            right: 150px;
+            margin-left: 168px;
+          }
 }
