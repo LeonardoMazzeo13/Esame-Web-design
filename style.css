@@ -550,6 +550,7 @@ nav {
     font-size: 5vw;
     font-family: 'Kodchasan', sans-serif;
     color: yellow;
+    ;
   }
   
   .aboutustext {
@@ -779,6 +780,12 @@ nav {
     text-align: right;
     margin-right: 150px;
   }
+  .grigio_us {
+    float: left; 
+    background: #7F7B82; 
+    border-radius: 80px; 
+    height: 600px;
+    }
 
 .grigio {
   float: left;
@@ -811,10 +818,29 @@ nav {
   float:right;
   margin-bottom: 80px;
 }
+.testo_grigiomassa{
+  width:55%;
+  padding: 60px 321px;;
+  float:right;
+  margin-bottom: 80px;
+}
+
 
 .rientro_dx{
   text-align: justify;
   margin-right: 100px;
+  
+}
+.rientro_dxmassa{
+  text-align: justify;
+    margin-left: 100px;
+    padding-top: 122px;
+    margin-right: -186px;
+}
+.rientro_dxdef{
+    text-align: justify;
+    margin-left: 99px;
+    padding-top: 61px;
 }
 
 
@@ -843,6 +869,73 @@ nav {
   margin-left: 100px;
 }
 
+ .contenitore_testous{
+
+    width: 75%;
+    padding: 100px 151px;
+
+}
+.grigio_dxmassa{
+  float: right;
+  width: 75%;
+    background: #7F7B82;
+     border-radius: 250px;
+     margin-top:  90px; 
+     height: 600px;
+}
+.element_style {
+  width: 400px;
+  position: relative;
+  top: -132px;
+  right: -267px;
+}
+
+.surplustesto{
+margin-top: 50px; 
+text-align: justify; 
+line-height: 1.5; 
+margin-left: 100px; 
+margin-right: 100px;
+}
+.surplusimg {
+  text-align: center; 
+  position: relative; 
+  width: 1018px; 
+  padding-left: 120px; 
+  margin-top: -100px;
+}
+.dietatesto {
+margin-left: 100px; 
+margin-right: 100px;
+}
+.dietaimg{
+  width:700px;
+  position: relative;
+  top:50px;
+  right: 17px; 
+  margin-left: 500px;
+  }
+  .defimg{
+    width:700px;
+    position: relative;
+    top:-174px;
+    right: 389px; 
+    margin-left: 500px;
+    }
+    .deficitimg{
+      text-align: center; 
+      position: relative; 
+      width: 1018px; 
+      padding-left: 120px; 
+      margin-top: -100px;
+      }
+      .allenamento1 {
+        text-align: justify; 
+        margin-left: 100px; 
+        margin-right: 100px;
+        }
+
+
 @media screen and (max-width: 572px){
 
   .destro{
@@ -858,31 +951,99 @@ nav {
   .grigio{
     width: 100%;
   }
+  .grigio_us{
+    width: 100%;
+  }
 
+  
   .testo_grigio{
     width: 80%;
     padding: 2px 35px;
   }
-
-  .rientro{
+  
+  .surplustesto{
+    width: 70%;
+    margin-top: 20px; 
+    text-align: justify; 
+    line-height: 1.5; 
+    margin-left: 40px; 
+    margin-right: 40px;
+    }
+    .surplusimg {
+    text-align: center; 
+    position: relative; 
+    width: 356px; 
+    padding-left: 120px; 
+    margin-top: -100px;
+  }
+    .rientro{
      margin-left: 50px;
   }
 
   .rientro_dx{
     margin-left: 40px;
   }
+  .rientro_dxmassa{    
+    
+      margin-right: -208px;
+      margin-left: 209px;
+      margin-top: 705px;
+  }
+  .rientro_dxdef{
+  
+      margin-right: -7px;
+      margin-left: -9px;
+      margin-top: -111px;
+  
+}
+.defimg{
+  width:400px;
+  position: relative;
+  top:-174px;
+  right: 482px; 
+  margin-left: 500px;
+  }
+  .deficitimg{
+    text-align: center; 
+    position: relative; 
+    width: 400px; 
+    padding-left: 50px; 
+    margin-top: -40px;
+    }
+    
+  
 
+
+    
 .grigio_dx{
   width: 100%;
 }
+.grigio_dxmassa{
+  width: 100%;
+   height: 700px;
+}
+.testo_grigiomassa{
+  width: 80%;
+    padding: 38px 261px;
+    float: right;
+    margin-top: -700;
+    margin-bottom: 80px
+}
+.allenamento1 {
+ 
+margin-left: 5px; 
+margin-right: 5px;
 
-
+}
   .testo_grigio_dx{
     width: 100%;
     float: unset;
     padding: 8px 20px;
   }
-
+  .contenitore_testous {
+    width: 75%;
+    padding: 32px 65px
+  }
   .squat_sopra{
     right: -126px;
   }
@@ -900,5 +1061,25 @@ nav {
   .margine_20{
     margin-left: 20px;
   }
-  
+  .element_style {
+    width: 400px;
+    position: relative;
+    top: -70px;
+    right: auto;
+    right: -274px;
+    left: 50;
+
+   }
+
+   .dietatesto {
+    margin-left: 30px; 
+    margin-right: 30px;
+    }
+    .dietaimg{
+    width:426px;
+    position: relative;
+    top:50px;
+    right: 514px; 
+    margin-left: 500px;
+    }
 }
